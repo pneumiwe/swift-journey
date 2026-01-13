@@ -9,3 +9,7 @@
 - January 12th: Progressed in "Learn to Code 2" on Swift Playgrounds.
 		- Finished three chapters: Initialization, Parameters, & World Building.
 
+- January 13th: Completed "Learn to Code 2" on Swift Playgrounds.
+		- Finished the last chapter: Arrays
+		- Started "Get Started with Apps" on Swift Playgrounds.
+
