@@ -13,3 +13,6 @@
 		- Finished the last chapter: Arrays
 		- Started "Get Started with Apps" on Swift Playgrounds.
 
+- January 14th: Completed "Get Started with Apps" on Swift Playgrounds.
+		- Learned Views in SwiftUI
+		- Started "Keep Going with Apps"
