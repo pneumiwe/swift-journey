@@ -16,3 +16,5 @@
 - January 14th: Completed "Get Started with Apps" on Swift Playgrounds.
 		- Learned Views in SwiftUI
 		- Started "Keep Going with Apps"
+
+- January 15th: Started a code-along from Apple Developer on YouTube and progressed
