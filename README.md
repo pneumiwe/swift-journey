@@ -18,3 +18,5 @@
 		- Started "Keep Going with Apps"
 
 - January 15th: Started a code-along from Apple Developer on YouTube and progressed
+
+- January 16th: Completed the code-along from Apple Developer on Swift Playgrounds
