@@ -26,3 +26,5 @@
 - January 17-21: Tried to code but perhaps I needed a break so I fixed my sleep schedule and took a break
 
 - January 22nd: Started with Development in Swift Tutorials and came up with an idea and prototyped it
+
+- January 23rd: Proceeded in Development in Swift Tutorials but was not able to do much as was busy with other chores during the day
