@@ -28,3 +28,5 @@
 - January 22nd: Started with Development in Swift Tutorials and came up with an idea and prototyped it
 
 - January 23rd: Proceeded in Development in Swift Tutorials but was not able to do much as was busy with other chores during the day
+
+- January 24th: Took tips from previous Swift Student Challenge winners and made notes and went through The Human Interface Guidelines a bit
