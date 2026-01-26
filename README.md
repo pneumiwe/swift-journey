@@ -30,3 +30,5 @@
 - January 23rd: Proceeded in Development in Swift Tutorials but was not able to do much as was busy with other chores during the day
 
 - January 24th: Took tips from previous Swift Student Challenge winners and made notes and went through The Human Interface Guidelines a bit
+
+- January 25th: Proceeded in Develop in Swift Tutorial and built one view.
