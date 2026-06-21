@@ -32,3 +32,9 @@
 - January 24th: Took tips from previous Swift Student Challenge winners and made notes and went through The Human Interface Guidelines a bit
 
 - January 25th: Proceeded in Develop in Swift Tutorial and built one view.
+
+- June 21st: Lots of stuff!
+	- Vibe-coded a simple app called 'ResistOCD' and submitted to the Swift Student Challenge on February 27th.
+	- Tried to learn to code from the basics from Apple's Develop in Swift Tutorials.
+	- Started a new tutorial "SwiftUI in 100 Days" by Paul Hudson
+	- Reached day 10 of "SwiftUI in 100 Days"
