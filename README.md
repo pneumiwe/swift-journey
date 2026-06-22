@@ -37,4 +37,7 @@
 	- Vibe-coded a simple app called 'ResistOCD' and submitted to the Swift Student Challenge on February 27th.
 	- Tried to learn to code from the basics from Apple's Develop in Swift Tutorials.
 	- Started a new tutorial "SwiftUI in 100 Days" by Paul Hudson
-	- Reached day 10 of "SwiftUI in 100 Days"
+	- Finished day 9 of 'SwiftUI in 100 Days'
+
+- June 22nd: Finished day 10 of '100 Days of SwiftUI'
+	- Learnt about structs, didSet, willSet, methods and more!
