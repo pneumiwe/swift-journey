@@ -41,3 +41,5 @@
 
 - June 22nd: Finished day 10 of '100 Days of SwiftUI'
 	- Learnt about structs, didSet, willSet, methods and more!
+
+- June 23rd: Finished day 11 of '100 Days of SwiftUI'
