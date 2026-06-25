@@ -45,3 +45,5 @@
 - June 23rd: Finished day 11 of '100 Days of SwiftUI'
 
 - June 24th: Finished day 12 of '100 Days of SwiftUI'
+
+- June 25th: Finished day 13 of '100 Days of SwiftUI'
