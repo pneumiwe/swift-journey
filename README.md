@@ -49,3 +49,9 @@
 - June 25th: Finished day 13 of '100 Days of SwiftUI'
 
 - June 26th: Finished day 14 of '100 Days of SwiftUI'
+
+- June 27th: Finished day 15 of '100 Days of SwiftUI'
+
+- June 28th: Finished multiple days of '100 Days of SwiftUI'
+	- Finished day 16 - 19
+ 	- Built my first app for challenge of day 19
