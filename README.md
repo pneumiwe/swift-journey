@@ -1,57 +1,44 @@
 # My Swift Journey
-## Goals for January 2026
-* Finish Learn to Code 1 & 2 on iPad.
-* Log every major achievement on Github.
 
-- January 10th: Finished "Learn to Code 1" on Swift Playgrounds.
+## January 2026:
 
-- January 11th: Started "Learn to Code 2" on Swift Playgrounds.
+- January 10th: Finished 'Learn to Code 1' on Swift Playgrounds.
+
+- January 11th: Started 'Learn to Code 2' on Swift Playgrounds.
 		- Finished two chapters: Variables & Types.
 
-- January 12th: Progressed in "Learn to Code 2" on Swift Playgrounds.
-		- Finished three chapters: Initialization, Parameters, & World Building.
+- January 12th: Progressed in 'Learn to Code 2' on Swift Playgrounds.
+		- Finished three chapters: Initialisation, Parameters, & World Building.
 
-- January 13th: Completed "Learn to Code 2" on Swift Playgrounds.
-		- Finished the last chapter: Arrays
-		- Started "Get Started with Apps" on Swift Playgrounds.
+- January 13th: Completed 'Learn to Code 2' on Swift Playgrounds.
+		- Finished the last chapter: Arrays.
+		- Started 'Get Started with Apps' on Swift Playgrounds.
 
-- January 14th: Completed "Get Started with Apps" on Swift Playgrounds.
-		- Learned Views in SwiftUI
-		- Started "Keep Going with Apps"
+- January 14th: Completed 'Get Started with Apps' on Swift Playgrounds.
+		- Learned about Views in SwiftUI.
+		- Started 'Keep Going with Apps'.
 
-- January 15th: Started a code-along from Apple Developer on YouTube and progressed
+- January 15th: Started a code-along from Apple Developer.
 
-- January 16th: Completed the code-along from Apple Developer on Swift Playgrounds
+- January 16th: Completed the code-along from Apple Developer on Swift Playgrounds.
 
-- January 17-21: Tried to code but perhaps I needed a break so I fixed my sleep schedule and took a break
+- January 22nd: Started 'Development in Swift Tutorials'. Prototyped an app
 
-- January 22nd: Started with Development in Swift Tutorials and came up with an idea and prototyped it
+- January 23rd: Proceeded in Development in Swift Tutorials.
 
-- January 23rd: Proceeded in Development in Swift Tutorials but was not able to do much as was busy with other chores during the day
+- January 24th: Took tips from previous Swift Student Challenge winners & went through HIG.
 
-- January 24th: Took tips from previous Swift Student Challenge winners and made notes and went through The Human Interface Guidelines a bit
+- January 25th: Proceeded in Develop in Swift Tutorial and built my first view.
 
-- January 25th: Proceeded in Develop in Swift Tutorial and built one view.
+## February 2026:
 
-- June 21st: Lots of stuff!
-	- Vibe-coded a simple app called 'ResistOCD' and submitted to the Swift Student Challenge on February 27th.
-	- Tried to learn to code from the basics from Apple's Develop in Swift Tutorials.
-	- Started a new tutorial "SwiftUI in 100 Days" by Paul Hudson
-	- Finished day 9 of 'SwiftUI in 100 Days'
+- Built my first app with the help of AI
+- Submitted the app to the Swift Student Challenge
 
-- June 22nd: Finished day 10 of '100 Days of SwiftUI'
-	- Learnt about structs, didSet, willSet, methods and more!
+## March - May 2026:
 
-- June 23rd: Finished day 11 of '100 Days of SwiftUI'
+- Took a break
 
-- June 24th: Finished day 12 of '100 Days of SwiftUI'
+## June 2026:
 
-- June 25th: Finished day 13 of '100 Days of SwiftUI'
-
-- June 26th: Finished day 14 of '100 Days of SwiftUI'
-
-- June 27th: Finished day 15 of '100 Days of SwiftUI'
-
-- June 28th: Finished multiple days of '100 Days of SwiftUI'
-	- Finished day 16 - 19
- 	- Built my first app for challenge of day 19
+- Started '100 Days of SwiftUI' by Paul Hudson. Related updates posted in it's folder 
