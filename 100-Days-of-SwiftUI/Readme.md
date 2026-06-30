@@ -50,3 +50,9 @@
 **June 28th**
 	- Completed Days 16 - 19: Project 1 & Day 19 App Challenge
 
+**June 29th:
+	- Completed Day 20: Project 2 - Part 1
+
+**June 30th:
+	- Completed Day 21 & 22: Project 2 - Part 2 & 3
+
