@@ -3,12 +3,13 @@
 ## January 2026:
 
 - Completed 3 tutorials on Swift Playgrounds 
-- Built my first app & submitted my app to the Swift Student Challenge 
+	- Learn to code 1 & 2
+	- Get started with apps
 
 ## February 2026:
 
-- Built my first app with the help of AI
-- Submitted the app to the Swift Student Challenge
+- Built my first app with AI
+- Submitted my app to the Swift Student Challenge
 
 ## March - May 2026:
 
