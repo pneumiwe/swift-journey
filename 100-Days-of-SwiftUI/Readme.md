@@ -1,6 +1,6 @@
-#100 Days of SwiftUI
+# 100 Days of SwiftUI
 
-##June
+## June
 
 **June 13th** 
 	- Completed Day 1: Variables, constants, strings, and ints
@@ -56,3 +56,7 @@
 **June 30th:
 	- Completed Day 21 & 22: Project 2 - Part 2 & 3
 
+## July
+
+**July 1st:
+	- Completed Day 23: Project 2 - Part 1

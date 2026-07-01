@@ -1,4 +1,4 @@
-#Swift Student Challenge 2026
+# Swift Student Challenge 2026
 
 ## January 2026:
 
