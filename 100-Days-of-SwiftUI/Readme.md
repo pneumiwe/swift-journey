@@ -48,7 +48,7 @@
 	Completed Day 15: Swift review
 
 **June 28th**
-	Completed Days 16 - 19: Project 1 & Day 19 App Challenge
+	Completed Days 16 - 19: Project 1 & Consolidation I
 
 **June 29th**:
 	Completed Day 20: Project 2 - Part 1
@@ -63,3 +63,12 @@
 
 **July 2nd**:
 	Completed Day 24: Project 3 - Part 2
+
+**July 7th**: 
+    Completed Day 25: Consolidation II
+
+**July 9th**:
+    Completed Day 26: Project 4 - Part 1
+    
+**July 16th**:
+    Completed Day 27: Project 4 - Part 2
