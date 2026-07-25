@@ -73,5 +73,5 @@
 **July 16th**:
     Completed Day 27: Project 4 - Part 2
     
-**July 17th**:
-    Completed Day 28: Project 4 - Part 3
+**July 25th**:
+    Completed Day 28 & 29: Project 4 - Part 3 & Project 5 - Part 1
