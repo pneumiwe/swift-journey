@@ -65,19 +65,22 @@
 	Completed Day 24: Project 3 - Part 2
 
 **July 7th**: 
-    Completed Day 25: Consolidation II
+	Completed Day 25: Consolidation II
 
 **July 9th**:
-    Completed Day 26: Project 4 - Part 1
+	Completed Day 26: Project 4 - Part 1
     
 **July 16th**:
-    Completed Day 27: Project 4 - Part 2
+	Completed Day 27: Project 4 - Part 2
     
 **July 25th**:
-    Completed Day 28 & 29: Project 4 - Part 3 & Project 5 - Part 1
+	Completed Day 28 & 29: Project 4 - Part 3 & Project 5 - Part 1
 
 **July 27**:
-    Completed Day 30: Project 5 - Part 2
+	Completed Day 30: Project 5 - Part 2
 
 **July 28**:
-    Completed Day 31: Project 5 - Part 3
+	Completed Day 31: Project 5 - Part 3
+
+**July 29th**:
+	Completed Day 32: Project 6 - Part 1
