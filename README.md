@@ -15,6 +15,6 @@
 
 - Took a break
 
-## June 2026:
+## June & July 2026:
 
-- Started '100 Days of SwiftUI' by Paul Hudson. Related updates posted in it's folder 
+- Started '100 Days of SwiftUI' by Paul Hudson. Related updates posted in '100 Days of SwiftUI' folder

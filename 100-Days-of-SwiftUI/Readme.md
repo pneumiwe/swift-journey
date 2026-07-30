@@ -2,52 +2,52 @@
 
 ## June
 
-**June 13th** 
+**June 13th**:
 	Completed Day 1: Variables, constants, strings, and ints
 
-**June 14th**
+**June 14th**:
 	Completed Day 2: Booleans, string interpolation, and checkpoint 1
 
-**June 15th**
+**June 15th**:
 	Completed Day 3: Arrays, dictionaries, sets, and enums
 
-**June 16th**
+**June 16th**:
 	Completed Day 4: Type annotations and checkpoint 2
 
-**June 17th**
+**June 17th**:
 	Completed Day 5: If, switch, and the ternary operator
 
-**June 18th**
+**June 18th**:
 	Completed Day 6: Loops, summary, and checkpoint 3
 
-**June 19th**
+**June 19th**:
 	Completed Day 7: Functions, parameters, and return values
 
-**June 20th**
+**June 20th**:
 	Completed Day 8: Default values, throwing functions, and checkpoint 4
 
-**June 21st**
+**June 21st**:
 	Completed Day 9: Closures, passing functions into functions, and checkpoint 5
 
-**June 22nd**
+**June 22nd**:
 	Completed Day 10: Structs, computed properties, and property observers
 
-**June 23rd**
+**June 23rd**:
 	Completed Day 11: Access control, static properties and methods, and checkpoint 6
 
-**June 24th**
+**June 24th**:
 	Completed Day 12: Classes, inheritance, and checkpoint 7
 
-**June 25th**
+**June 25th**:
 	Completed Day 13: Protocols, extensions, and checkpoint 8
 
-**June 26th**
+**June 26th**:
 	Completed Day 14: Optionals, nil coalescing, and checkpoint 9
 
-**June 27th**
+**June 27th**:
 	Completed Day 15: Swift review
 
-**June 28th**
+**June 28th**:
 	Completed Days 16 - 19: Project 1 & Consolidation I
 
 **June 29th**:
@@ -84,3 +84,6 @@
 
 **July 29th**:
 	Completed Day 32: Project 6 - Part 1
+
+**July 30th**:
+	Completed Day 33: Project 6 - Part 2
