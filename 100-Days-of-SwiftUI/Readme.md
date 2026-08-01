@@ -87,3 +87,6 @@
 
 **July 30th**:
 	Completed Day 33: Project 6 - Part 2
+
+**August 1st**:
+	Completed Day 34: Project 6 - Part 3
