@@ -90,3 +90,6 @@
 
 **August 1st**:
 	Completed Day 34: Project 6 - Part 3
+
+**August 4th**:
+	Completed Day 35: Consolidation III
