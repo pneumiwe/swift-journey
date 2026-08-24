@@ -93,3 +93,12 @@
 
 **August 4th**:
 	Completed Day 35: Consolidation III
+
+**August 6th**:
+	Updated Multiply
+
+**August 18th**:
+	Completed Day 36: Project 7 - Part 1
+
+**August 24th**:
+	Completed Day 37: Project 7 - Part 2
