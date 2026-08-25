@@ -102,3 +102,6 @@
 
 **August 24th**:
 	Completed Day 37: Project 7 - Part 2
+
+**August 25th**:
+	Completed Day 38: Project 7 - Part 3
