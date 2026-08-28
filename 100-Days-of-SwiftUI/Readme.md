@@ -105,3 +105,9 @@
 
 **August 25th**:
 	Completed Day 38: Project 7 - Part 3
+
+**August 26th**:
+	Completed Day 39: Project 8 - Part 1
+
+**August 28th**: 
+	Completed Day 40: Project 8 - Part 2
