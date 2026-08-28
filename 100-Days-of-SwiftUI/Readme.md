@@ -110,4 +110,4 @@
 	Completed Day 39: Project 8 - Part 1
 
 **August 28th**: 
-	Completed Day 40: Project 8 - Part 2
+	Completed Day 40 & 41: Project 8 - Part 2 & 3
