@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Checkpoint 7
+
+// • Make a class hierarchy for animals.
+// • Start with Animal. Add a legs property for the number of legs an animal has.
+// • Make Dog a subclass of Animal, giving it a speak method that prints a dog barking string, but each subclass should print something different.
+// • Make Corgi and Poodle subclasses of Dog.
+// • Make Cat an Animal subclass. Add a speak method, with each subclass printing something different, and an isTame Boolean, set with an initializer.
+// • Make Persian and Lion as subclasses of Cat.
+
+class Animal {
+    let name: String
+    let numberOfLegs: Int
+    
+    init(name: String, numberOfLegs: Int) {
+        self.name = name
+        self.numberOfLegs = numberOfLegs
+    }
+}
+
+class Dog: Animal {
+    func speak() {
+        let text = "Bark!"
+        print(text)
+    }
+}
+
+class Corgi: Dog {
+    override func speak() {
+        let text = "Bark! I am Corgi"
+        print(text)
+    }
+}
+
+class Poodle: Dog {
+    override func speak() {
+        let text = "Bark! I am Poodle"
+        print(text)
+    }
+}
+
+class Cat: Animal {
+    let isTame: Bool
+    
+    init(name: String, numberOfLegs: Int, isTame: Bool) {
+        self.isTame = isTame
+        super.init(name: name, numberOfLegs: numberOfLegs)
+    }
+    
+    func speak() {
+        let text = "Meow"
+    }
+}
+
+class Persian: Cat {
+    override func speak() {
+        let text = "Meow. I am a Persian cat"
+        print(text)
+    }
+}
+
+class Lion: Cat {
+    override func speak() {
+        let text = "Meow. I am a Lion"
+        print(text)
+    }
+}
+
+let myDog = Poodle(name: "Connor", numberOfLegs: 4)
+let myCat = Lion(name: "Simba", numberOfLegs: 4, isTame: false)
+
+myCat.speak()
+myDog.speak()
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1685}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

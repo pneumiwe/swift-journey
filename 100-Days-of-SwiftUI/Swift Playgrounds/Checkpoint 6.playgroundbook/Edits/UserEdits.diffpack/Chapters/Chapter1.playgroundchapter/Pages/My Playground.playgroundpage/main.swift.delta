@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Checkpoint 6
+
+// Create a struct to store information about a car, including its model, number of seats, and current gear, then add a method to change gears up or down. 
+
+enum direction {
+    case up, down
+}
+
+struct Car {
+    let model: String
+    let numberOfSeats: Int
+    private(set) var currentGear = 1
+    
+    mutating func shiftGear(_ direction: direction) {
+        switch direction {
+        case .up:
+            if currentGear &lt; 10 {
+                currentGear += 1
+                print("Current gear is: \(currentGear)")
+            } else {
+                print("Already in highest gear possible!")
+            }
+        case .down:
+            if currentGear &gt; 1 {
+                currentGear -= 1
+                print("Current gear is: \(currentGear)")
+            } else {
+                print("Already in lowest gear possible!")
+            }
+        }
+    }
+}
+
+var paulsTesla = Car(model: "Tesla Model X", numberOfSeats: 5)
+
+for _ in 1...10 {
+    paulsTesla.shiftGear(direction.up)
+}
+
+print()
+
+for _ in 1...10 {
+    paulsTesla.shiftGear(direction.down)
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1082}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
