@@ -87,14 +87,15 @@ struct ContentView: View {
                 }
                 .onDelete(perform: removeItems)
             }
+            
             .navigationTitle("iExpense")
             .toolbar {
-                Button("Add Expense", systemImage: "plus") {
-                    showingAddExpense = true
+                NavigationLink(value: 1) {
+                    Image(systemName: "plus")
                 }
-            }
-            .sheet(isPresented: $showingAddExpense) {
-                AddView(personalExpenses: personalExpenses, businessExpenses: businessExpenses)
+                .navigationDestination(for: Int.self) { _ in
+                    AddView(personalExpenses: personalExpenses, businessExpenses: businessExpenses)
+                }
             }
         }
     }

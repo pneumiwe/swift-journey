@@ -54,7 +54,7 @@
 	Completed Day 20: Project 2 - Part 1
 
 **June 30th**:
-	Completed Day 21 & 22: Project 2 - Part 2 & 3
+	Completed Days 21 & 22: Project 2 - Part 2 & 3
 
 ## July
 
@@ -74,7 +74,7 @@
 	Completed Day 27: Project 4 - Part 2
     
 **July 25th**:
-	Completed Day 28 & 29: Project 4 - Part 3 & Project 5 - Part 1
+	Completed Days 28 & 29: Project 4 - Part 3 & Project 5 - Part 1
 
 **July 27**:
 	Completed Day 30: Project 5 - Part 2
@@ -114,3 +114,15 @@
 
 **August 29th**:
 	Completed Day 42: Project 8 - Part 4
+
+**August 30th**:
+	Completed Day 43: Project 9 - Part 1
+
+**August 31st**:
+	Completed Days 44 & 45: Project 9 - Part 2 & 3
+
+**September 1st**:
+	Partially Completed Day 46: Project 9 - Part 4
+
+**September 2nd**:
+	Completed Day 46: Project 9 - Part 4
