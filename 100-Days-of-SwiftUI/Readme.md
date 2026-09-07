@@ -126,3 +126,6 @@
 
 **September 2nd**:
 	Completed Day 46: Project 9 - Part 4
+
+**September 7th**:
+	Completed Day 47: Milestone: Projects 7-9
