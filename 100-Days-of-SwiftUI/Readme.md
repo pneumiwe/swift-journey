@@ -129,3 +129,12 @@
 
 **September 7th**:
 	Completed Day 47: Milestone: Projects 7-9
+
+**September 10th**:
+	Completed Day 48: Expanding your horizons
+
+**September 24th**:
+	Completed Day 49: Project 10 - Part 1
+
+**September 25th**:
+	Completed Day 50: Project 10 - Part 2
