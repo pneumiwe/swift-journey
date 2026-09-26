@@ -133,8 +133,14 @@
 **September 10th**:
 	Completed Day 48: Expanding your horizons
 
-**September 24th**:
+**September 23rd**:
 	Completed Day 49: Project 10 - Part 1
 
-**September 25th**:
+**September 24th**:
 	Completed Day 50: Project 10 - Part 2
+
+**September 25th**:
+	Completed Day 51: Project 10 - Part 3
+
+**September 26th**:
+	Completed Day 52: Project 10 - Part 4

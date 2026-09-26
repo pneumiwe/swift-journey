@@ -1,5 +1,12 @@
 import Foundation
 
+struct UserAddress: Codable {
+    var name = ""
+    var streetAddress = ""
+    var city = ""
+    var zip = ""
+}
+
 @Observable
 class Order: Codable {
     enum CodingKeys: String, CodingKey {
@@ -8,20 +15,17 @@ class Order: Codable {
         case _specialRequestEnabled = "specialRequestEnabled"
         case _extraFrosting = "extraFrosting"
         case _addSprinkles = "addSprinkles"
-        case _name = "name"
-        case _city = "city"
-        case _streetAddress = "streetAddress"
-        case _zip = "zip"
+        case _userAddress = "userAddress"
     }
     
-    static let types = ["Strawberry", "Vanilla", "Chocolate", "Rainbow"]
+    static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     
     var type = 0
     var quantity = 3
     
-    var specialRequestsEnabled = false {
+    var specialRequestEnabled = false {
         didSet {
-            if specialRequestsEnabled == false {
+            if specialRequestEnabled == false {
                 extraFrosting = false
                 addSprinkles = false
             }
@@ -29,17 +33,24 @@ class Order: Codable {
     }
     var extraFrosting = false
     var addSprinkles = false
-    
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+        if userAddress.name.containsOnlyWhiteSpaces() || 
+            userAddress.streetAddress.containsOnlyWhiteSpaces() || 
+            userAddress.city.containsOnlyWhiteSpaces() || 
+            userAddress.zip.containsOnlyWhiteSpaces() 
+        {
             return false
         }
         return true
     }
-    var name = ""
-    var streetAddress = ""
-    var city = ""
-    var zip = ""
+    
+    var userAddress: UserAddress {
+        didSet {
+            if let encoded = try? JSONEncoder().encode(userAddress) {
+                UserDefaults.standard.set(encoded, forKey: "UserAddress")
+            }
+        }
+    }
     
     var cost: Decimal {
         var cost = Decimal(quantity) * 2
@@ -55,5 +66,21 @@ class Order: Codable {
         }
         
         return cost
+    }
+    
+    init() {
+        if let address = UserDefaults.standard.data(forKey: "UserAddress") {
+            if let decodedItems = try? JSONDecoder().decode(UserAddress.self, from: address) {
+                userAddress = decodedItems
+                return
+            }
+        }
+        userAddress = UserAddress()
+    }
+}
+
+extension String {
+    func containsOnlyWhiteSpaces() -> Bool {
+        return self.trimmingCharacters(in: .whitespaces).isEmpty
     }
 }
