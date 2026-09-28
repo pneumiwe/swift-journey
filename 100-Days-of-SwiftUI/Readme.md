@@ -144,3 +144,9 @@
 
 **September 26th**:
 	Completed Day 52: Project 10 - Part 4
+
+**September 27th**:
+	Completed Day 53: Project 11 - Part 1
+
+**September 28th**:
+	Completed Day 54: Project 11 - Part 2
