@@ -150,3 +150,6 @@
 
 **September 28th**:
 	Completed Day 54: Project 11 - Part 2
+
+**September 29th**:
+	Completed Day 55: Project 11 - Part 3
