@@ -156,3 +156,6 @@
 
 **September 30th**:
 	Completed Day 56: Project 11 - Part 4
+
+**October 1st**:
+	Completed Day 57: Project 12 - Part 1
