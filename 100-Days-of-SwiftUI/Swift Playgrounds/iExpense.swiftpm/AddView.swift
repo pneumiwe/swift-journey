@@ -1,16 +1,15 @@
+import SwiftData
 import SwiftUI
 
 struct AddView: View {
+    @Environment(\.modelContext) var modelContext
     @Environment(\.dismiss) var dismiss
     
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
     
-    var personalExpenses: PersonalExpenses
-    var businessExpenses: BusinessExpenses
-    
-    let types = ["Business", "Personal"]
+    let types = ["Personal", "Business"]
     
     var body: some View {
         Form {
@@ -25,23 +24,17 @@ struct AddView: View {
             TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                 .keyboardType(.decimalPad)
         }
-        .navigationTitle("Add new expense")
+        .navigationTitle("Add New Expense")
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .confirmationAction) {
                 Button("Save") {
-                    if name.count < 1 {
-                        return
-                    }
-                    if type == "Personal" {
-                        let item = ExpenseItem(name: name, type: type, amount: amount)
-                        personalExpenses.items.append(item)
-                        dismiss()
-                    } else {
-                        let item = ExpenseItem(name: name, type: type, amount: amount)
-                        businessExpenses.items.append(item)
-                        dismiss()
-                    }
+                    let item = ExpenseItem(name: name, type: type, amount: amount)
+                    modelContext.insert(item)
+                    dismiss()
                 }
+                .disabled(name.isEmpty)
             }
             
             ToolbarItem(placement: .cancellationAction) {
@@ -50,10 +43,11 @@ struct AddView: View {
                 }
             }
         }
-        .navigationBarBackButtonHidden()
     }
 }
 
 #Preview {
-    AddView(personalExpenses: PersonalExpenses(), businessExpenses: BusinessExpenses())
+    NavigationStack {
+        AddView()
+    }
 }

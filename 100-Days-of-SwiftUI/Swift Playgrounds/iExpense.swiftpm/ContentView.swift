@@ -1,110 +1,106 @@
+import SwiftData
 import SwiftUI
-import Observation
 
-struct ExpenseItem: Identifiable, Codable {
-    var id = UUID()
-    let name: String
-    let type: String
-    let amount: Double
-}
-
-@Observable
-class PersonalExpenses {
-    var items = [ExpenseItem]() {
-        didSet {
-            if let encoded = try? JSONEncoder().encode(items) {
-                UserDefaults.standard.set(encoded, forKey: "Personal")
-            }
-        }
-    }
-    
-    init() {
-        if let savedItems = UserDefaults.standard.data(forKey: "Personal") {
-            if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) {
-                items = decodedItems
-                return
-            }
-        }
-        
-        items = []
-    }
-}
-
-@Observable
-class BusinessExpenses {
-    var items = [ExpenseItem]() {
-        didSet {
-            if let encoded = try? JSONEncoder().encode(items) {
-                UserDefaults.standard.set(encoded, forKey: "Business")
-            }
-        }
-    }
-    
-    init() {
-        if let savedItems = UserDefaults.standard.data(forKey: "Business") {
-            if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) {
-                items = decodedItems
-                return
-            }
-        }
-        
-        items = []
-    }
+enum ShowOptions {
+    case personal, business, all
 }
 
 struct ContentView: View {
-    @State private var personalExpenses = PersonalExpenses()
-    @State private var businessExpenses = BusinessExpenses()
-    @State private var showingAddExpense = false
-    @State private var currentView = "Personal"
+    @Query var items: [ExpenseItem]
     
-    let types = ["Personal", "Business"]
+    @State private var sortOrder = [
+        SortDescriptor(\ExpenseItem.name),
+        SortDescriptor(\ExpenseItem.amount)
+    ]
+    @State private var filterSelection = "All"
+    let filterOptions = ["Personal", "Business", "All"]
     
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    Picker("Type", selection: $currentView) {
-                        ForEach(types, id: \.self) {
-                            Text($0)
-                        }
+            ItemsView(selection: filterSelection, sortOrder: sortOrder)
+                .navigationTitle("iExpense")
+                .toolbar {
+                    NavigationLink(value: 1) {
+                        Image(systemName: "plus")
                     }
-                    .pickerStyle(.segmented)
-                } 
-                
-                ForEach(currentView == "Personal" ? personalExpenses.items : businessExpenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
+                    
+                    Menu("Sort", systemImage: "arrow.up.arrow.down") {
+                        Picker("Sort", selection: $sortOrder) {
+                            Text("Sort by Name")
+                                .tag([
+                                    SortDescriptor(\ExpenseItem.name),
+                                    SortDescriptor(\ExpenseItem.amount)
+                                ])
+                            
+                            Text("Sort by Amount")
+                                .tag([
+                                    SortDescriptor(\ExpenseItem.amount),
+                                    SortDescriptor(\ExpenseItem.name)
+                                ])
                         }
                         
-                        Spacer()
-                    
-                        Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
-                            .foregroundStyle(item.amount >= 100 ? .red : item.amount <= 10 ? .green : .primary)
+                        Picker("Filter", selection: $filterSelection) {
+                            ForEach(filterOptions, id: \.self) {
+                                Text("Show \($0)")
+                            }
+                        }
                     }
                 }
-                .onDelete(perform: removeItems)
-            }
-            
-            .navigationTitle("iExpense")
-            .toolbar {
-                NavigationLink(value: 1) {
-                    Image(systemName: "plus")
-                }
                 .navigationDestination(for: Int.self) { _ in
-                    AddView(personalExpenses: personalExpenses, businessExpenses: businessExpenses)
+                    AddView()
                 }
-            }
-        }
-    }
-    func removeItems(at offsets: IndexSet) {
-        if currentView == "Personal" {
-            personalExpenses.items.remove(atOffsets: offsets)
-        } else {
-            businessExpenses.items.remove(atOffsets: offsets)
         }
     }
 }
 
+struct ItemsView: View {
+    @Environment(\.modelContext) var modelContext
+    @Query var items: [ExpenseItem]
+    
+    var body: some View {
+        List {
+            ForEach(items) { item in
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(item.name)
+                            .font(.headline)
+                        
+                            Text(item.type)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                    }
+                    
+                    Spacer()
+                    
+                    Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .foregroundStyle(item.amount >= 100 ? .red : item.amount <= 10 ? .green : .primary)
+                }
+            }
+            .onDelete(perform: deleteItems)
+        }
+        
+    }
+    
+    func deleteItems(at offsets: IndexSet) {
+        for offset in offsets {
+            let item = items[offset]
+            modelContext.delete(item)
+        }
+    }
+    
+    init(selection: String, sortOrder: [SortDescriptor<ExpenseItem>]) {
+        _items = Query(filter: #Predicate<ExpenseItem> { item in
+            if selection == "Personal" {
+                return item.type == "Personal"
+            } else if selection == "Business" {
+                return item.type == "Business"
+            } else {
+                return true
+            }
+        }, sort: sortOrder)
+    }
+}
+
+#Preview {
+    ContentView()
+}
