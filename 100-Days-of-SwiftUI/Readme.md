@@ -159,3 +159,9 @@
 
 **October 1st**:
 	Completed Day 57: Project 12 - Part 1
+
+**October 2nd**:
+	Completed Day 58: Project 12 - Part 2
+
+**October 3rd**:
+	Completed Day 59: Project 12 - Part 3
