@@ -18,8 +18,8 @@ let package = Package(
             targets: ["AppModule"],
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .calculator),
-            accentColor: .presetColor(.red),
+            appIcon: .placeholder(icon: .paper),
+            accentColor: .presetColor(.yellow),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
