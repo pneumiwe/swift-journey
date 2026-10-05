@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Multiply
 //
-//  Created by Tarannum on 02/08/26.
+//  Created by Suayd on 02/08/26.
 //
 
 import SwiftUI
@@ -62,6 +62,8 @@ struct ContentView: View {
             Spacer()
             Text("Round: \(roundNumber)/\(numberOfRounds)")
             Text("Score: \(score)")
+                .font(.caption)
+                .foregroundStyle(.secondary)
             Text("\(number1) X \(number2) = \(playerAnswer)")
                 .font(.largeTitle.bold())
                 .padding()

@@ -2,7 +2,7 @@
 //  BetterRestUITests.swift
 //  BetterRestUITests
 //
-//  Created by Tarannum on 11/07/26.
+//  Created by Suayd on 11/07/26.
 //
 
 import XCTest

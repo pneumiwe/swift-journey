@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ViewModifier
 //
-//  Created by Tarannum on 04/07/26.
+//  Created by Suayd on 04/07/26.
 //
 
 import SwiftUI

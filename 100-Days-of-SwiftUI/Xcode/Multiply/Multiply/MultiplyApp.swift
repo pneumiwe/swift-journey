@@ -2,7 +2,7 @@
 //  MultiplyApp.swift
 //  Multiply
 //
-//  Created by Tarannum on 02/08/26.
+//  Created by Suayd on 02/08/26.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Guess The Flag
 //
-//  Created by Tarannum on 02/07/26.
+//  Created by Suayd on 02/07/26.
 //
 
 import SwiftUI
@@ -95,6 +95,7 @@ struct ContentView: View {
 
         showingScore = true
     }
+    
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)

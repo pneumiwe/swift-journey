@@ -2,7 +2,7 @@
 //  MultiplyUITests.swift
 //  MultiplyUITests
 //
-//  Created by Tarannum on 02/08/26.
+//  Created by Suayd on 02/08/26.
 //
 
 import XCTest
