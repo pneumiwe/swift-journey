@@ -1,8 +1,9 @@
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
-    @State private var users = [User]()
-    @State private var activeUsers: Int
+    @Environment(\.modelContext) var modelContext
+    @Query(sort: \User.name) var users: [User]
     
     var body: some View {
         NavigationStack {
@@ -29,6 +30,7 @@ struct ContentView: View {
             .navigationTitle("Friend Face")
             .task {
                 if users.isEmpty {
+                    print("I'm loading data")
                     await loadData()
                 }
             }
@@ -47,12 +49,15 @@ struct ContentView: View {
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
             
-            let decodedUsers = try decoder.decode([User].self, from: data)
-            users = decodedUsers
+            let decodedUsers = try decoder.decode([UserStruct].self, from: data)
+            
+            for user in decodedUsers {
+                let user = User(from: user)
+                modelContext.insert(user)
+            }
+            try modelContext.save()
         } catch {
-            print("Invalid Data")
+            print(error.localizedDescription)
         }
-        
-    
     }
 }

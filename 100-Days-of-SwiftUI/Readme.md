@@ -163,5 +163,11 @@
 **October 2nd**:
 	Completed Day 58: Project 12 - Part 2
 
-**October 3rd**:
+**October 4th**:
 	Completed Day 59: Project 12 - Part 3
+
+**October7th**:
+	Completed Day 60: Consolidation V
+
+**October 8th**:
+	Completed Day 61: Time for SwiftData
