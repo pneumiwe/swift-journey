@@ -171,3 +171,12 @@
 
 **October 8th**:
 	Completed Day 61: Time for SwiftData
+
+**October 10th**:
+	Completed Day 62: Project 13 - Part 1
+
+**October 11th**:
+	Completed Day 63: Project 13 - Part 2
+
+**October 12th**:
+	Completed Day 64: Project 13 - Part 3
