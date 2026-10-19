@@ -180,3 +180,6 @@
 
 **October 12th**:
 	Completed Day 64: Project 13 - Part 3
+
+**October 19th**:
+	Completed Day 65: Project 13 - Part 4
