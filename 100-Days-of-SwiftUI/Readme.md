@@ -186,3 +186,6 @@
 
 **October 20**:
 	Completed Day 66: Project 13 - Part 5
+
+**October 21**:
+	Completed Day 67: Project 13 - Part 6
