@@ -189,3 +189,12 @@
 
 **October 21**:
 	Completed Day 67: Project 13 - Part 6
+
+**October 22nd**:
+	Completed Day 68: Project 14 - Part 1
+
+**October 23rd**:
+	Completed Day 69: Project 14 - Part 2
+
+**October 25th**:
+	Completed Day 70: Project 14 - Part 3
