@@ -201,3 +201,6 @@
 
 **October 26th**:
 	Completed Day 71: Project 14 - Part 4
+
+**October 27th**:
+	Completed Day 72: Project 14 - Part 5
